@@ -3,10 +3,41 @@
     padding: 0px;
 }
 /************ Nav Bar ************/
-.nav {
-    
+nav {
+    width: 100%;
+    margin: 0px;   
+    position: static;
 }
 
-.nav ul {
+nav ul {
+    background-color: #222831;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
 
+ul li {
+    list-style: none;
+    float: left;
+}
+
+.nav-bar-right {
+    float: right;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    margin: 10px;
+    padding: 5px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul li a:hover {
+    background-color: #eeeeee;
+    color: black;
+    border-radius: 10px;
 }
